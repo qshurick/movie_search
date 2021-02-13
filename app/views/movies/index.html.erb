@@ -1,0 +1,31 @@
+<h1>Movies#index</h1>
+<p>Find me in app/views/movies/index.html.erb</p>
+<%= form_with url: "/", method: :get do |form| %>
+  <%= form.search_field :query, value: @query %>
+  <%= form.submit "Find movies with this actor" %>
+<% end %>
+<%= form_with url: "/", method: :get do |form| %>
+  <%= form.submit "Show all movies" %>
+<% end %>
+<ul>
+<% @movies.each do |movie| %>
+  <li>
+    <h2><%= movie.title %></h2>
+    <h3>Actors</h3>
+    <ul>
+      <% movie.actors.each do |actor| %>
+        <li><%= actor.name %></li>
+      <% end %>
+    </ul>
+    <h3>Reviews</h3>
+    <ul>
+      <% movie.reviews.each do |review| %>
+      <li>
+        <strong><%= review.user %> <%= "*" * review.stars %></strong>
+        <%= review.review %>
+      </li>
+      <% end %>
+    </ul>
+  </li>
+<% end %>
+</ul>
