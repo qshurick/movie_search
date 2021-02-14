@@ -1,7 +1,7 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
+some_where:
+  name: Some where
 
-two:
-  name: MyString
+some_where_else:
+  name: Some where else

@@ -1,9 +1,17 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  location: one
+  location: some_where
   actor_career: one
 
 two:
-  location: two
+  location: some_where
   actor_career: two
+
+three:
+  location: some_where
+  actor_career: three
+
+four:
+  location: some_where_else
+  actor_career: four

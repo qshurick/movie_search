@@ -1,17 +1,22 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  title: MyString
-  description: MyText
-  year: 1
-  director: MyString
-  location: MyString
-  country: MyString
+star_wars_phantom_manece:
+  title: Star Wars, Phantom manece
+  description: Long time ago in the galaxy far away
+  year: 1999
+  director: George Lucas
+  country: US
 
-two:
-  title: MyString
-  description: MyText
-  year: 1
-  director: MyString
-  location: MyString
-  country: MyString
+star_wars_attack_of_the_clones:
+  title: Star Wars, Attack of the clones
+  description: Long time ago in the galaxy far away
+  year: 2002
+  director: George Lucas
+  country: US
+
+hackers:
+  title: hackers
+  description: Dade, banned from using a computer until 18, grows up to be an even bigger hacker than his childhood pranks. Along with his friends, he discovers the plot of an evil genius to unleash a lethal virus.
+  year: 1995
+  director: Iain Softley
+  country: US

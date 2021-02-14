@@ -1,13 +1,19 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  user: MyString
-  stars: 1
-  review: MyText
-  movie: one
+  user: David Blane
+  stars: 3
+  review: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac.
+  movie: star_wars_phantom_manece
 
 two:
-  user: MyString
-  stars: 1
-  review: MyText
-  movie: two
+  user: David Blane
+  stars: 4
+  review: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac.
+  movie: star_wars_attack_of_the_clones
+
+tree:
+  user: David Blane
+  stars: 5
+  review: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac.
+  movie: hackers
