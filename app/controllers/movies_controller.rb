@@ -1,6 +1,10 @@
 class MoviesController < ApplicationController
   def index
     @query = params[:query]
-    @movies = @query ? Movie.by_actor(@query) : Movie.rated
+    if @query
+      @movies = RankedMoviesByActor.top_movies @query
+    else
+      @movies = RankedMovie.top_movies
+    end
   end
 end
